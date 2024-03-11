@@ -1,0 +1,106 @@
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 508px;
+  height: 80px;
+  background: var(--white_-ffffff) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 16px #AAAAAA4D;
+  border-radius: 24px 24px 0px 0px;
+  opacity: 1;
+  position: fixed;
+  bottom: 0; /* Alinear al fondo de la pantalla */
+  left: 0;
+  right: 0;
+  margin: 0 auto; /* Centrar horizontalmente */
+  z-index: 100;
+  background-color: var(#FFFFFF);
+}
+.pag-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pag-container p{
+  width: 41px;
+  margin-right: -10px;
+}
+.text-page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.text-page{
+  width: 268px;
+  height: 56px;
+  background: var(--white_-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--azul-plomo-50-);
+  border-radius: 6px;
+  opacity: 1;
+}
+.icon-container svg{
+  color: var(--red_1_-dd3542);
+}
+.pag-container{
+  width: 204px;
+  height: 48px;
+}
+
+.pag-container button{
+  color: var(--red_1_-dd3542);
+  margin: 16px;
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+}
+.pag-container input{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--gray-strong);
+  width: 48px;
+  height: 48px;
+  background: var(--white_-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--azul-plomo-50-);
+  border-radius: 6px;
+  opacity: 1;
+  margin: 8px;
+}
+.pag-container p {
+  font-size: 16px;
+  color: #414141;
+}
+.pag-title{
+  width: 200px;
+  height: 16px;
+  font-size: 12px;
+  color: var(--azul-plomo);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ABB9C7;
+  opacity: 1;
+}
+.number-pag{
+  width: 200px;
+  height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #414141;
+  opacity: 1;
+
+}
+.number-pagination{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.number-pagination p {
+  display: inline;
+  margin-left: 5px;
+}
