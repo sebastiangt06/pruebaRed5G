@@ -147,3 +147,22 @@ a {
   text-decoration: underline;
   margin: 0px;
 }
+::view-transition-old(root){
+  animation: left-entrance 3s ease-in-out 3s 1 normal forwards;
+}
+::view-transition-new(root){
+  animation: left-entrance 3s ease-in-out 3s 1 normal forwards;
+
+}
+
+@keyframes left-entrance {
+	from {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
