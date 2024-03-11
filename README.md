@@ -8,5 +8,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Se realizo las animaciones para los botones
 Se agrego tambien Router para cambio de pantallas routes = login and stats.
+Se agregaron viewTransitions para la harmonia de la aplicacion
 
-link de despliegue en vercel : https://prueba-red5-g.vercel.app/
+
